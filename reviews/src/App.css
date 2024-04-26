@@ -1,28 +1,30 @@
 body {
-  background-color: #49243e;
+  background-color: #ee99c2 !important;
 }
 .Header {
-  color: #dbafa0;
+  color: #643843;
   text-align: center;
   padding: 10px;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .underline {
   text-underline-offset: 8px;
   text-decoration: underline;
-  text-decoration-color: navajowhite;
+  text-decoration-color: #ffffff;
 }
 
 .box {
-  height: 450px;
-  width: 650px;
-  background-color: aliceblue;
+  height: 400px;
+  width: 600px;
+  background-color: #c683d7;
   margin: 0 auto;
-  box-shadow: 10px 10px 5px #888888;
+
+  padding-top: 2%;
+  padding-bottom: 5%;
 }
 
 .image {
@@ -40,6 +42,58 @@ body {
   border-radius: 50%;
   position: relative;
   border: 2px solid #888;
-  margin: 10px;
+  margin: 10px 10px 10px 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-left: 25%;
+  grid-row: 1 / span 2;
+  grid-column: 1 / span 2;
+}
+
+.Float-left {
+  display: flex;
+  margin: 5px;
+  margin-left: 30%;
+}
+
+.Float-left p {
+  color: #000;
+  font-family: "Untitled Serif";
+  font-size: 21px;
+  font-weight: normal;
+  overflow-wrap: break-world;
+  margin: 5px;
+}
+
+.buttonL {
+  background-color: #643843;
+  color: #49243e;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 30%;
+}
+.buttonR {
+  background-color: #643843;
+  color: #49243e;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.bg-custom {
+  background-color: #ffc7c7;
 }

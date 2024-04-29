@@ -35,6 +35,38 @@ const reviews = [
       "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg",
     text: "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ",
   },
+  {
+    id: 5,
+    name: "John Doe",
+    age: 40,
+    job: "Software engineer",
+    image: "https://randomuser.me/api/portraits/men/75.jpg",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl id tincidunt aliquam, nunc nunc tincidunt nunc, nec ultrices nunc nisl id nunc. Sed auctor, nisl id tincidunt aliquam, nunc nunc tincidunt nunc, nec ultrices nunc nisl id nunc.",
+  },
+  {
+    id: 6,
+    name: "Jane Smith",
+    age: 28,
+    job: "UI/UX designer",
+    image: "https://randomuser.me/api/portraits/women/84.jpg",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl id tincidunt aliquam, nunc nunc tincidunt nunc, nec ultrices nunc nisl id nunc. Sed auctor, nisl id tincidunt aliquam, nunc nunc tincidunt nunc, nec ultrices nunc nisl id nunc.",
+  },
+  {
+    id: 7,
+    name: "Michael Johnson",
+    age: 35,
+    job: "Product manager",
+    image: "https://randomuser.me/api/portraits/men/84.jpg",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl id tincidunt aliquam, nunc nunc tincidunt nunc, nec ultrices nunc nisl id nunc. Sed auctor, nisl id tincidunt aliquam, nunc nunc tincidunt nunc, nec ultrices nunc nisl id nunc.",
+  },
+  {
+    id: 8,
+    name: "Emily Davis",
+    age: 32,
+    job: "Frontend developer",
+    image: "https://randomuser.me/api/portraits/men/30.jpg",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl id tincidunt aliquam, nunc nunc tincidunt nunc, nec ultrices nunc nisl id nunc. Sed auctor, nisl id tincidunt aliquam, nunc nunc tincidunt nunc, nec ultrices nunc nisl id nunc.",
+  },
 ];
 
 export default reviews;

@@ -4,14 +4,7 @@ import "./App.css";
 import reviews from "./people.js";
 
 function Picture() {
-  const [person, setPerson] = useState(people);
-  for (let i = 0; i < person.length; i++) {
-    /*console.log(person[i].name);*/
-  }
-
-  function deletePerson() {
-    person[i].name.pop;
-  }
+  /* to do delete or save the users to another array to show matches*/
 
   const [index, setIndex] = useState(0); // Define index as a state variable
 
@@ -48,7 +41,7 @@ function Picture() {
         </div>
 
         <div>
-          <button className="buttonL" onClick={nextPerson}>
+          <button className="buttonL" onClick={beforePerson}>
             <svg
               width="40px"
               height="40px"
@@ -67,7 +60,7 @@ function Picture() {
               </g>
             </svg>
           </button>
-          <button className="buttonR" onClick={beforePerson}>
+          <button className="buttonR" onClick={nextPerson}>
             <svg
               width="40px"
               height="40px"
